@@ -4,13 +4,15 @@
 body {
 	font-family: 'Varela Round', sans-serif;
 	line-height: 1.6;
-	color: #646464;
+	color: black;
 	margin: 0;
+	background: linear-gradient(45deg, rgba(94,206,127,.6), rgba(57,173,209,.6));
+
 }
 ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 p {
 	font-size: .95em;
@@ -19,7 +21,7 @@ p {
 }
 h3,
 a {
-	color: #0293c9; /* #3079AB */
+	color:#0293c9; /* #3079AB */
 }
 h3 {
 	margin-top: .8em;
@@ -33,11 +35,18 @@ img {
 	width: 100%;
 }
 .contact{
+	margin: 3.5px;
 	text-align: center;
+	padding: 14px;
+}
+.fa-3x{
+	margin: 3.5px;
+	padding: 14px;
 }
 
+
 /* ================================= 
-  Base Layout Styles
+Base Layout Styles
 ==================================== */
 
 /* ---- Layout Containers ---- */
@@ -48,11 +57,7 @@ img {
 }
 .banner {
 	color: #fff;
-    background: linear-gradient(45deg, rgba(94,206,127,.6), rgba(57,173,209,.6)),
-        url('../img/Lake.jpg');
-							
-
-	background-size: cover;
+	background-size: auto;
 	padding: 3.2em 0;
 	margin-bottom: 3em;
 	text-shadow: 0 1px rgba(0,0,0,.35);
@@ -70,16 +75,10 @@ img {
 /* ---- Page Elements ---- */
 
 .photo {
-	/*width: 200px;
+	width: 200px;
+	height: 200px;
 	border-radius: 50%;
-	border: solid 3px rgba(255,255,255,.8);*/
-	
-	margin-top: 50px;
-  width: 250px;
-  height: 350px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+	border: solid 3px rgba(255,255,255,.8);
 }
 .headline {
 	margin: .35em 0 0;
@@ -113,7 +112,7 @@ img {
 
 
 /* ================================= 
-  Media Queries
+Media Queries
 ==================================== */
 
 @media (min-width: 769px) {
