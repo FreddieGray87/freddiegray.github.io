@@ -32,9 +32,7 @@ h3 {
 a {
 	text-decoration: none;
 }
-img {
-	width: 100%;
-}
+
 .contact{
 	margin: 3.5px;
 	text-align: center;
@@ -43,6 +41,10 @@ img {
 .fa-3x{
 	margin: 3.5px;
 	padding: 14px;
+}
+
+a:hover{
+	color: limegreen;
 }
 
 
