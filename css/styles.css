@@ -6,24 +6,87 @@ html,body {
 	line-height: 1.6;
 	color: #fff;
 	margin: 0;
-	height: 100%;
 	background: linear-gradient(45deg, rgba(94,206,127,.6), rgba(57,173,209,.6));
 	background-size: cover;
 	}
+	
+	/*Section Styles*/
+header {
+		text-align: center;
+		overflow: hidden;
+		padding-top: 60px;
+		line-height: 1.5;
+}
+header .profile-image {
+		margin-top: 50px;
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		border: 3px solid #fff;
+		transition: all .5s;
+}
+header .profile-image:hover {
+		transform: scale(1.2) rotate(720deg);
+}
+.tag {
+		background-color: #fff;
+		color: dodgerblue;
+		padding: 10px;
+		border-radius: 5px;
+		display: table;
+		margin: 10px auto;
+} 
+.card {
+		margin: 30px;
+		padding: 20px 40px 40px;
+		max-width: 500px;
+		text-align: left;
+		background: #fff;
+		border-bottom: 4px solid #ccc;
+		border-radius: 6px;
+}
+.card:hover {
+		border-color: #ff99ff;
+}
+ul.skills {
+	padding: 0;
+	text-align: center;
+  }
+  
+  .skills li {
+	border-radius: 6px;
+	display: inline-block;
+	background: #ff9904;
+	color: white;
+	padding: 5px 10px;
+	margin: 2px;
+  }
+  
+  .skills li:nth-child(odd) {
+	background: #0399ff;
+  }
+  
 p {
 	font-size: .95em;
 	margin-top: 0;
 	margin-bottom: 1.5em;
+	color: dodgerblue;
 }
-h3 {
+h2 {
 	margin-top: .8em;
 	margin-bottom: .6em;
 	text-align: center;
+	color: dodgerblue;
 }
 .contact{
-	margin: 3.5px;
 	text-align: center;
-	padding: 14px;
+	background-color: #fff;
+	color: dodgerblue;
+	padding: 10px;
+	border-radius: 5px;
+	display: table;
+	margin: 10px auto;
+	
 	
 }
 .fa-3x{
@@ -38,6 +101,12 @@ a:hover{
 a {
 	color: dodgerblue; 
 }
+.flex {
+	display: flex;
+	max-width: 1200px;
+	justify-content: space-around;
+	margin: 0 auto;
+}
 
 
 /* ================================= 
@@ -45,18 +114,19 @@ Base Layout Styles
 ==================================== */
 
 /* ---- Layout Containers ---- */
+.main{
+	text-align: center;
+}
 
-.banner {
+/*.banner {
 	color: #fff;
 	text-align: center;
 	background-size: auto;
 	padding: 3.2em 0;
 	margin-bottom: 3em;
 	text-shadow: 0 1px rgba(0,0,0,.35);
-}
-.main{
-	text-align: center;
-}
+}*/
+
 
 /* ================================= 
 Media Queries
