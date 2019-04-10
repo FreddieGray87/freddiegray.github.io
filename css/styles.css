@@ -51,21 +51,21 @@ header .profile-image:hover {
 ul.skills {
 	padding: 0;
 	text-align: center;
-  }
-  
-  .skills li {
+}
+
+.skills li {
 	border-radius: 6px;
 	display: inline-block;
 	background: #ff9904;
 	color: white;
 	padding: 5px 10px;
 	margin: 2px;
-  }
-  
-  .skills li:nth-child(odd) {
+}
+
+.skills li:nth-child(odd) {
 	background: #0399ff;
-  }
-  
+}
+
 p {
 	font-size: .95em;
 	margin-top: 0;
@@ -85,7 +85,7 @@ h2 {
 	padding: 10px;
 	border-radius: 5px;
 	display: table;
-	margin: 10px auto;
+	margin:  auto;
 	
 	
 }
