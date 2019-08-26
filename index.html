@@ -1,48 +1,104 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Fred Graybeal's Portfolio Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="main.js"></script>
-    </head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Fred Graybeal's Portfolio Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- ======Css->Font Awesome->Google-Fonts======-->
+        <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+                integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+                crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+        <!-- ======Script=====-->
+        <script src="main.js"></script>
+        <script src="https://kit.fontawesome.com/ea7b178d0f.js"></script>
+</head>
+
 <body>
+        <!-- Start Header -->
         <header>
-                <img src="http://placeimg.com/400/400/animals" alt="Random Cat Photo" class="profile-image">
-                <h3 class="tag name">Hello, I’m Fred.<br>Junior web developer. Always learning, always building.</h3>
-        </header>
-
-        <main class="flex">
-                <div class="card">
-                <h2>About Me:</h2>
-                <p> I started my development journey in the early summer of 2018, when I attended Betamore's Intro to Full Stack Web development academy.</p>
-                <p>After I graduated from Betamore I continued my learning through courses on Team Treehouse which including Front End Development and Javascript fundamentals.</p>
-                </div>
-                <div class="card">
-                        <h2>Goals:</h2>
-                        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
-                        <ul class="skills">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Vue.js</li>
-                        <li>Python</li>
+                <nav class="main-nav">
+                        <ul class="nav-links"><i class="fas fa-circle"></i>
+                                <li class="nav-item"><a href="#">About</a></li><i class="fas fa-circle"></i>
+                                <li class="nav-item"><a href="#skills">Skills</a></li><i class="fas fa-circle"></i>
+                                <li class="nav-item"><a href="#contact">Contact</a></li><i class="fas fa-circle"></i>
                         </ul>
-                    </div> 
-                
-        </main>
-<footer>
-<div class="contact">
-    <h2>Contact Me:</h2>
-<a href = "https://github.com/FreddieGray87" target="_blank"><i class="fab fa-github fa-3x"></i></a> <!--Github icon-->
-<a href ="http://linkedin.com/in/fred-graybeal-410" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a> <!--linkedin icon-->
-<a href ="https://www.dropbox.com/home?preview=Fred%27s+Resume+(1).pdf" target="_blank"><i class="far fa-file fa-3x"></i></a><!--resume icon-->
-<a href = "mailto:fred.c.graybeal@gmail.com?Subject=Hello!"><i class="fas fa-envelope fa-3x"></i></a> <!--email icon-->
-</div>
-</footer>
-</body>
-</html>
+                        <!-- end nav-links -->
+                </nav>
+                <!-- End main-nav -->
+                <div class="anime">
+                        <h1><code>{ Hello World.}</code> I'm Fred Graybeal.</h1>
+                        <h2>I'm a baltimore based Web Developer. Always learning. Always building.</h2>
+                </div>
 
+        </header>
+        <!-- End of header -->
+        <div class="line"></div>
+        <!-- Start About Section -->
+        <section id="about">
+                <div>
+                        <h2>About Me:</h2>
+                        <p>I started my development journey in the early summer of 2018, when I attended Betamore's
+                        Intro to Full Stack Web development academy.After I graduated from Betamore I continued my 
+                        learning through courses on Team Treehouse which including Front End Development and Javascript 
+                        fundamentals.</p>
+                        
+
+                </div>
+        </section>
+        <!-- End About Section -->
+
+        <!-- Start Of Skills Section -->
+        <div class="line"></div>
+        <section id="skills">
+                <div class="card">
+                        <h2>Skills</h2>
+                        <ul class="skills">
+                                <div class="skill_set">
+                                        <li>HTML</li>
+                                        <i class="fab fa-html5 fa-3x"></i>
+                                </div>
+                                <div class="skill_set">
+                                        <li>CSS</li>
+                                        <i class="fab fa-css3-alt fa-3x"></i>
+                                </div>
+                                <div class="skill_set">
+                                        <li>JavaScript</li>
+                                        <i class="fab fa-js-square fa-3x"></i>
+                                </div>
+                                <div class="skill_set">
+                                        <li>Vue.js</li>
+                                        <i class="fab fa-vuejs fa-3x"></i>
+                                </div>
+                        </ul>
+                </div>
+        </section>
+        <!-- End Of Skills Section -->
+        <div class="line"></div>
+        <!-- Start Of Project Section -->
+        <section>
+                <div class="projects">
+                        <h1>Projects:</h1>
+                </div>
+        </section>
+        <!-- End Of Project Section -->
+        <div class="line"></div>
+        <!-- Start of Contact Section -->
+        <section>
+        <div class="contact">
+                <h1>Contact Me:</h1>
+                <a href = "https://github.com/FreddieGray87" target="_blank"><i class="fab fa-github fa-3x con"></i></a> <!--Github icon-->
+<a href ="http://linkedin.com/in/fred-graybeal-410" target="_blank"><i class="fab fa-linkedin-in fa-3x con"></i></a> <!--linkedin icon-->
+<a href ="https://www.dropbox.com/home?preview=Fred%27s+Resume+(7).pdf" target="_blank"><i class="far fa-file fa-3x con"></i></a><!--resume icon-->
+<a href = "mailto:fred.c.graybeal@gmail.com?Subject=Hello!"><i class="fas fa-envelope fa-3x con"></i></a> <!--email icon-->
+</div>
+</section>
+<!-- End of Contact Section -->
+</body>
+
+</html>
