@@ -25,6 +25,10 @@ header {
 
 nav {
 	width: 100%;
+	top: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 
 }
 
@@ -35,6 +39,7 @@ nav {
 	color: #edf5e1;
 	flex-direction: row;
 	justify-content: space-around;
+
 
 }
 
@@ -50,6 +55,7 @@ nav {
 .main-nav {
 	width: 100%;
 	background-color: #379683;
+	position: fixed;
 }
 
 .line {
@@ -183,47 +189,10 @@ Base Layout Styles
 /* ================================= 
 Media Queries
 ==================================== */
-
-@media (min-width: 769px) {
-	.row {
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	.headline {
-		font-size: 3em;
-	}
-
-	.tagline {
-		font-size: 1.65em;
-	}
-
-	.fc {
-		display: -webkit-flex;
+@media (min-width: 500px) {
+	ul.nav-links {
 		display: flex;
-	}
+		flex-direction: row;
 
-	.item {
-		-webkit-flex: 1 50%;
-		flex: 1 50%;
-		text-align: center;
-		margin-bottom: 2em;
-	}
-
-	.row {
-		-webkit-flex-wrap: wrap;
-		flex-wrap: wrap;
-	}
-}
-
-@media (min-width: 1025px) {
-	.row {
-		width: 80%;
-		max-width: 1150px;
-	}
-
-	.item {
-		-webkit-flex-basis: 33.333333333%;
-		flex-basis: 33.333333333%;
 	}
 }
