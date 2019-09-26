@@ -181,6 +181,10 @@ Media Queries
 	ul {
 		flex-direction: column;
 	}
+	ul.nav-links,
+	.skills {
+		flex-direction: row;
+	}
 }
 
 @media (max-width: 375px) {
