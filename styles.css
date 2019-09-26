@@ -10,7 +10,6 @@ body {
 	margin: 0;
 	background-color: #5cdb95;
 	background-size: cover;
-
 }
 
 img {
@@ -29,7 +28,6 @@ nav {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-
 }
 
 .nav-item {
@@ -39,8 +37,6 @@ nav {
 	color: #edf5e1;
 	flex-direction: row;
 	justify-content: space-around;
-
-
 }
 
 /* Header Animation */
@@ -49,7 +45,6 @@ nav {
 	color: #edf5e1;
 	padding: 50px;
 	margin-top: 50px;
-
 }
 
 .main-nav {
@@ -63,7 +58,7 @@ nav {
 	margin: 4% auto;
 	width: 90%;
 	height: 2px;
-	background-color: #05386B;
+	background-color: #05386b;
 }
 
 /*Section Styles*/
@@ -76,8 +71,6 @@ ul {
 	align-items: center;
 	flex-direction: row;
 	justify-content: center;
-
-
 }
 
 li {
@@ -93,12 +86,7 @@ li.nav-links {
 	text-decoration: none;
 	justify-content: space-between;
 	align-items: center;
-
 }
-
-
-
-
 
 .skills {
 	border-radius: 6px;
@@ -117,7 +105,6 @@ li.nav-links {
 	text-align: center;
 }
 
-
 p {
 	font-size: 1.25em;
 	margin-top: 0;
@@ -134,8 +121,6 @@ h2 {
 	color: #edf5e1;
 }
 
-
-
 .fa-3x {
 	margin: 3.5px;
 	padding: 14px;
@@ -145,7 +130,7 @@ h2 {
 
 a:hover {
 	text-decoration: underline;
-	color: #8ee4af
+	color: #8ee4af;
 }
 
 a {
@@ -166,7 +151,7 @@ a {
 }
 
 .con:hover {
-	color: #05386B;
+	color: #05386b;
 }
 
 /* ================================= 
@@ -174,7 +159,6 @@ Base Layout Styles
 ==================================== */
 
 /* ---- Layout Containers ---- */
-
 
 /*.banner {
 	color: #fff;
@@ -185,14 +169,23 @@ Base Layout Styles
 	text-shadow: 0 1px rgba(0,0,0,.35);
 }*/
 
-
 /* ================================= 
 Media Queries
 ==================================== */
-@media (min-width: 500px) {
-	ul.nav-links {
-		display: flex;
-		flex-direction: row;
+@media (max-width: 768px) {
+	h2 {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 
+	ul {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 375px) {
+	ul.skills {
+		display: flex;
+		flex-direction: column;
 	}
 }
